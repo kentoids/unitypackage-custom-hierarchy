@@ -668,6 +668,7 @@ namespace Febucci.HierarchyData
 
                 #endregion
 
+#if false
                 {
                     //Draws the gameobject icon, if present
                     var content = EditorGUIUtility.ObjectContent(go ?? EditorUtility.InstanceIDToObject(instanceID), null);
@@ -687,6 +688,7 @@ namespace Febucci.HierarchyData
                         }
                     }
                 }
+#endif
                 
                 
                 
